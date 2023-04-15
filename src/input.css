@@ -9,8 +9,9 @@
 }
 
 .twoColumnSection {
-	@apply flex flex-col items-center
-  lg:h-screen
+	@apply mx-auto flex flex-col
+  items-center
+  lg:h-screen lg:max-w-[65%]
   lg:flex-row lg:justify-between;
 }
 
@@ -102,6 +103,10 @@
     leading-[1.25rem]
     md:max-w-none 
      lg:text-lg;
+}
+
+.breakIndicator {
+	@apply border-t-4 border-gray-400;
 }
 
 footer {
