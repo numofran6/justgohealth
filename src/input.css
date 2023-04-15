@@ -1,3 +1,112 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.oneColumnSection {
+	@apply flex h-screen flex-col
+    items-center justify-center 
+    space-y-1;
+}
+
+.twoColumnSection {
+	@apply flex flex-col items-center
+  lg:h-screen
+  lg:flex-row lg:justify-between;
+}
+
+.blueTag {
+	@apply rounded-2xl border-8 
+    border-[#5A81BA] bg-[#BACAE3] px-8 
+    py-1
+    text-center text-[1rem]
+    font-bold leading-4
+    text-white
+    lg:text-[1.2rem] lg:leading-5;
+}
+
+.blueTagDoubleColumn {
+	@apply w-[80vw] rounded-2xl
+    border-8 border-[#5A81BA] 
+    bg-[#BACAE3] px-5 py-1 
+    text-center
+    text-[1rem] font-bold
+    leading-4 text-white
+    sm:w-[50vw]
+    lg:w-[30vw] lg:text-[1.2rem] lg:leading-5;
+}
+
+.blueTagHeading {
+	@apply font-bold 
+    text-[#19529F];
+}
+
+.purpleTag {
+	@apply rounded-2xl border-8 
+    border-[#A775B4] bg-[#C09CC8] px-8 
+    py-1
+    text-center text-[1rem]
+    font-bold leading-4
+    text-white
+    lg:text-[1.2rem] lg:leading-5;
+}
+
+.purpleTagDoubleColumn {
+	@apply w-[80vw] rounded-2xl
+    border-8 border-[#A775B4] 
+    bg-[#C09CC8] px-8 py-1 
+    text-center
+    font-bold leading-4
+    text-white 
+    sm:w-[50vw]
+    lg:w-[30vw] lg:text-[1.2rem] lg:leading-5;
+}
+
+.purpleTagHeading {
+	@apply font-bold 
+    text-[#975BA5];
+}
+
+.alignVertical {
+	@apply flex h-screen flex-col items-center justify-center lg:h-full;
+}
+
+.appImage {
+	@apply w-[80vw] sm:w-[50vw]
+  lg:w-[30vw];
+}
+
+.singleCardSize {
+	@apply w-[90%] lg:w-[60vw] xl:w-[50vw];
+}
+
+.navContainer {
+	@apply sticky top-0 
+    flex h-[14vh] w-full flex-col 
+    items-center justify-end 
+    bg-[#F9F9F9] px-5 pb-4 
+    sm:h-[12vh] lg:h-[14vh];
+}
+
+.navBody {
+	@apply flex w-full max-w-2xl 
+    items-center justify-between 
+    space-x-12 text-center text-sm 
+    sm:space-x-0 sm:text-[1.2rem] 
+    lg:max-w-[58rem];
+}
+
+.userIntro {
+	@apply flex max-w-xl
+    flex-col justify-end px-4 pb-2 
+     text-center text-[0.95rem]
+    leading-[1.25rem]
+    md:max-w-none 
+     lg:text-lg;
+}
+
+footer {
+	@apply flex min-h-[55vh] flex-col
+    items-center justify-center space-y-5
+    bg-[#F3F3F5] text-[#A8A9AD]
+    sm:min-h-[40vh];
+}
