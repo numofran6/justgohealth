@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 87.2vw;
+    margin: auto;
+    font-family: 'BR Hendrix', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.logo {
+    width: 8rem;
+    align-self: center;
+}
+
+main {
+    text-align: center;
+    margin-block: 2.5rem;
+}
+
+main p {
+    margin-block: 1rem;
+}
+
+form {
+    display: grid;
+    row-gap: 1rem;
+    border: 3px solid #97b5e532;
+    border-radius: 1rem;
+    width: fit-content;
+    margin: auto;
+    padding: 2rem
+}
+
+form input[type="text"],
+select,
+form input[type="email"] {
+    width: 60vw;
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: .75rem;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 50vw;
+    margin: auto;
+    background-color: #dae7f8;
+    border: 3px solid #97b5e5;
+    cursor: pointer;
+    color:#97b5e5;
+    font-size: .75rem;
+    padding: .5rem 1rem;
+    border-radius: .75rem;
+
+}
+
+@media screen and (min-width:1024px) {
+
+    .logo {
+        width: 14rem;
+    }
+
+    form input[type="text"],
+    select,
+    form input[type="email"] {
+    width: 400px;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+    button {
+        width: 200px;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+}
+
+

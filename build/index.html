@@ -6,13 +6,105 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>JustGo Health</title>
 		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="../src/font/stylesheet.css">
 	</head>
 
-	<body>
-		<!-- MENTAL HEALTH -->
+	<body class="font-sans">
+      <main>
+        <header class="bg-cover bg-center lg:bg-top lg:h-screen bg-[#5454545e] bg-blend-multiply" style="background-image: url(../src/assets/hero-bg.jpg);">
+            <nav class="mx-3 lg:max-w-[95vw] lg:mx-auto py-4 sticky top-0 z-[9999] flex justify-between">
+                    <img src="../src/assets/logo-17.png" alt="JustGo Health Logo" class="w-32 lg:w-48 self-center">
+                    <button onclick="location.href='register.html'" class="bg-[#dae7f8]  text-[#92AEDB] text-xs p-1 rounded-sm lg:text-base lg:px-3 lg:py-2 lg:rounded-lg  outline-1 lg:outline-[3px] outline hover:bg-[#97b5e5] hover:text-[#dae7f8]">Save Your Spot ></button>
+            </nav>
+
+			<div class="bg-[#ffffff8d] rounded-xl backdrop-blur-lg mt-28 lg:mt-0 lg:bg-transparent mx-4 lg:backdrop-blur-none py-10 px-5 lg:px-0 lg:py-0">
+				<p class="text-center text-[#003399] lg:text-4xl">Live your best life with JustGo Health by your side.</p>
+				<div class="grid gap-5 lg:flex justify-between pt-5 lg:pt-0 lg:my-48 lg:max-w-7xl mx-auto lg:text-2xl">
+					<div>
+						<div class="text-[#003399]">
+							<span>&#10003;</span>
+							<p class="inline-flex">Primary Health 🌡️</p>
+						</div>
+						<div class="my-5 text-[#993399]">
+							<span>&#10003;</span>
+							<p class="inline-flex">Reproductive Health 🎉</p>
+						</div>
+						<div class="text-[#339933]">
+							<span>&#10003;</span>
+							<p class="inline-flex">Physical Fitness 🧘🏽‍♀️</p>
+						</div>
+					</div>
+					<div>
+						<div class="text-[#003399]">
+							<span>&#10003;</span>
+							<p class="inline-flex">Mental Health 💆🏽‍♀️</p>
+						</div>
+						<div class="my-5 text-[#993399]">
+							<span>&#10003;</span>
+							<p class="inline-flex">Nutritional Health 🍓</p>
+						</div>
+						<div class="text-[#339933]">
+							<span>&#10003;</span>
+							<p class="inline-flex">Skin Fitness 🧑🏾‍⚕️</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="bg-white py-7 translate-y-[7.5vw] lg:translate-y-[5.25rem] text-center lg:text-4xl -z-10 text-gray-400">Calling all <span id="job-title" class="opacity-100 relative transition-opacity bg-[#CCD9EE] px-4 py-2 after:content-[''] after:absolute after:h-[6px] after:w-[102%] after:bg-[#993399] after:bottom-0 after:-left-[2px] after:rounded-lg text-white">Medical Experts</span></p>
+</header>
+
+
+<!-- CATERGORIES SECTION -->
+
+<section class="lg:max-w-[76rem] mx-auto my-10 lg:my-20 -z-10">
+	<h2 class="text-2xl lg:text-4xl font-bold text-center">At <span class="text-[#339933]">JustGo Health</span>, we work closely with healthcare experts to develop
+		<span class="text-[#993399]">smart software</span> that simplifies the delivery of healthcare for everyone.</h2>
+
+		<div class="grid lg:grid-cols-3 gap-6 lg:gap-16 lg:max-w-5xl lg:mx-auto my-10 lg:my-20 mx-7">
+			<div class="text-center border-4 border-[#92AEDB] px-2 py-10 rounded-xl">
+				<h3 class="text-xl lg:text-3xl text-[#92AEDB] font-bold">Human Curation</h3>
+				<p class="lg:text-xl py-5">Experts plus our advanced 
+					technology handpicks all 
+					medical plans, guides and 
+					personal recommendations</p>
+				<button onclick="location.href='register.html'" class="bg-[#dae7f8]  text-[#92AEDB] font-bold text-base py-1 rounded-sm lg:text-base px-3 lg:py-2 lg:rounded-lg  outline-1 lg:outline-[3px] outline hover:bg-[#97b5e5] hover:text-[#dae7f8]">Save Your Spot ></button>
+			</div>
+			<div class="text-center border-4 border-[#92AEDB] px-2 py-10 rounded-xl">
+				<h3 class="text-xl lg:text-3xl text-[#92AEDB] font-bold">Everyday Health</h3>
+				<p class="lg:text-xl py-5">We integrate the perfect 
+					health plan using your already 
+					existing insurance, medical 
+					team and digital tools</p>
+				<button onclick="location.href='register.html'" class="bg-[#dae7f8]  text-[#92AEDB] font-bold text-base py-1 rounded-md lg:text-base px-3 lg:py-2 lg:rounded-lg  outline-1 lg:outline-[3px] outline hover:bg-[#97b5e5] hover:text-[#dae7f8]">Save Your Spot ></button>
+			</div>
+			<div class="text-center border-4 border-[#92AEDB] px-2 py-10 rounded-xl">
+				<h3 class="text-xl lg:text-3xl text-[#92AEDB] font-bold">Perfect Health</h3>
+				<p class="lg:text-xl py-5">Use the latest medical 
+					research into your health 
+					and control your own body 
+					to get the perfect health</p>
+				<button onclick="location.href='register.html'" class="bg-[#dae7f8]  text-[#92AEDB] font-bold text-base py-1 rounded-md lg:text-base px-3 lg:py-2 lg:rounded-lg  outline-1 lg:outline-[3px] outline hover:bg-[#97b5e5] hover:text-[#dae7f8]">Save Your Spot ></button>
+			</div>
+		</div>
+</section>
+
+<!-- JUSTGO RADIO -->
+<section class="lg:max-w-[76rem] mx-auto mb-20">
+	<h2 class="text-center text-3xl lg:text-5xl font-bold">JustGo Health Radio. #Health For All</h2>
+	<div class="blueTag singleCardSize mx-auto my-3">
+		<p class="py-4 leading-7">
+			Starting in May, primary, high school and tertiary students across Ghana can access 
+our advanced healthcare offerings for Mental Health and Reproductive Health.
+		</p>
+	</div>
+	<img src="../src/assets/JGo Health Poster.jpg" alt="" class="w-[87.2vw] lg:w-[56rem] mx-auto rounded-2xl">
+</section>
+
+
+<!-- MENTAL HEALTH -->
 		<div id="mental_health"></div>
 
-		<nav class="navContainer">
+		<div class="navContainer">
 			<div class="navBody">
 				<h4
 					class="rounded-lg bg-[#92AEDB] px-2 py-1 font-bold text-[#231F20] lg:text-2xl"
@@ -34,7 +126,7 @@
 					>
 				</div>
 			</div>
-		</nav>
+		</div>
 
 		<section class="flex flex-col items-center bg-[#F9F9F9]">
 			<p class="userIntro h-[10vh] sm:pb-7 md:pb-10">
@@ -311,7 +403,7 @@
 				</div>
 			</section>
 		</div>
-
+      </main>  
 		<footer>
 			<div class="max-w-[80%]">
 				<ol class="list-decimal">
@@ -341,5 +433,20 @@
 				</h4>
 			</div>
 		</footer>
+
+		<script>
+			const jobTitles = ["Physician-Scientists", "Medical Curators", "Health Researchers", "Patient Advocates", "Health Organizations", "Medical Experts"];
+			let index = 0;
+		  
+			setInterval(() => {
+			  index = (index + 1) % jobTitles.length;
+			  const jobTitleElement = document.getElementById("job-title");
+			  jobTitleElement.style.opacity = 0;
+			  setTimeout(() => {
+				jobTitleElement.textContent = jobTitles[index];
+				jobTitleElement.style.opacity = 1;
+			  }, 500);
+			}, 5000);
+		  </script>		  
 	</body>
 </html>

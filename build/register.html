@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Your Spot</title>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="../src/font/stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../build/index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" style="fill: rgba(120, 120, 120, 0.657);"><path d="M9.172 16.242 12 13.414l2.828 2.828 1.414-1.414L13.414 12l2.828-2.828-1.414-1.414L12 10.586 9.172 7.758 7.758 9.172 10.586 12l-2.828 2.828z"></path><path d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2 2 6.486 2 12s4.486 10 10 10zm0-18c4.411 0 8 3.589 8 8s-3.589 8-8 8-8-3.589-8-8 3.589-8 8-8z"></path></svg>
+            </a>
+            <img src="../src/assets/logo-17.png" alt="JustGo Logo" class="logo">
+        </nav>
+    </header>
+    <main>
+        <h1>JustGo Partnership Program</h1>
+        <p>Healthcare doesn’t happen alone. We are glad to have you on this journey.</p>
+        <form action="https://formspree.io/f/mnqyokzj" method="POST">
+            <label for="name">
+                <input type="text" name="name" placeholder="Name">
+            </label>
+            <label for="email">
+                <input type="email" name="email" placeholder="Email">
+            </label>
+            <label for="organization">
+                <input type="text" name="organization" placeholder="Organization (optional)">
+            </label>
+            <label for="occupation">
+                <select name="occupation" id="">
+                    <option value="" disabled selected>Joining as</option>
+                    <option value="Medical Expert">Medical Expert</option>
+                    <option value="Physician-Scientist">Physician-Scientist</option>
+                    <option value="Medical Curator">Medical Curator</option>
+                    <option value="Medical Research Scientist">Health Researcher</option>
+                    <option value="Medical Research Scientist">Patient Advocate</option>
+                    <option value="Medical Research Scientist">Health Organization</option>
+                </select>
+            </label>
+            <button type="submit">Save Your Spot &nbsp; ></button>
+        </form>
+    </main>
+</body>
+</html>
