@@ -1,450 +1,465 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>JustGo Health</title>
-		<link rel="stylesheet" href="css/styles.css" />
-		<link rel="stylesheet" href="font/stylesheet.css" />
-		<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JustGo Health</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="font/stylesheet.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+  </head>
 
-	<body class="font-sans">
-		<header
-			class="lg:h-full"
-		>
-		
-			<div class="bg-[#ffffffa8] backdrop-blur-[1rem] fixed top-0 w-full z-[9999]">
-				<nav
-					class="mx-3 py-4 flex justify-between lg:max-w-[87.2vw] lg:mx-auto"
-				>
-					<img
-						src="assets/images/logo-17.png"
-						alt="JustGo Health Logo"
-						class="w-32 lg:w-48 self-center"
-					/>
-					<button
-						onclick="location.href='register.html'"
-						class="bg-[#dae7f8] text-[#92AEDB] font-bold text-xs px-3 rounded-sm lg:text-sm  lg:rounded-xl outline-1 lg:outline-2 outline hover:bg-[#97b5e5] hover:text-[#dae7f8]"
-					>
-						Save Your Spot >
-					</button>
-				</nav>
-			</div>
+  <body class="font-sans">
+    <header class="lg:h-full">
+      <div
+        class="fixed top-0 z-[9999] w-full bg-[#ffffffa8] backdrop-blur-[1rem]"
+      >
+        <nav
+          class="mx-3 flex justify-between py-4 lg:mx-auto lg:max-w-[87.2vw]"
+        >
+          <img
+            src="assets/images/logo-17.png"
+            alt="JustGo Health Logo"
+            class="w-32 self-center lg:w-48"
+          />
+          <button
+            onclick="location.href='register.html'"
+            class="rounded-sm bg-[#dae7f8] px-3 text-xs font-bold text-[#92AEDB] outline outline-1 hover:bg-[#97b5e5] hover:text-[#dae7f8] lg:rounded-xl lg:text-sm lg:outline-2"
+          >
+            Save Your Spot >
+          </button>
+        </nav>
+      </div>
 
-			<div
-				class="text-center lg:mt-40 pt-20 lg:px-0 lg:py-0"
-			>
-				<h1 class="text-center text-[#003399] lg:text-5xl text-3xl font-bold tracking-wide px-5">
-					🚀 Health on the Go!
-				</h1>
-				<p
-				class="bg-white pt-8 font-bold lg:text-3xl text-xl text-gray-400 px-5"
-			>
-				Calling all
-				<span
-					id="job-title"
-					class="justGo-green slid-in-bottom text-2xl lg:text-4xl"
-					>Medical Experts</span
-				>
-			</p>
-				<p class="lg:text-3xl lg:w-1/2 mx-auto text-2xl lg:font-bold py-8 px-5">JustGo Health is designed with medical experts who are passionate about helping you live healthier.</p>
-				<div class="flex justify-center items-center gap-5 overflow-x-clip md:overflow-visible">
-					<img src="assets/images/Left.jpg" alt="three young adults in pink, posing for the camera" class="md:w-1/3 w-1/2 lg:w-72 rounded-lg lg:rounded-3xl overflow-clip">
-					<img src="assets/images/Middle.jpg" alt="" class="w-1/2 md:w-1/3 lg:w-72 rounded-lg lg:rounded-3xl translate-y-8">
-					<img src="assets/images/Right.jpg" alt="" class="w-1/2 md:w-1/3 lg:w-72 rounded-lg lg:rounded-3xl lg:translate-y-16 overflow-clip">
-				</div>
-			</div>
-			
-		</header>
+      <div class="pt-20 text-center lg:mt-40 lg:px-0 lg:py-0">
+        <h1
+          class="px-5 text-center text-3xl font-bold tracking-wide text-[#003399] lg:text-5xl"
+        >
+          🚀 Health on the Go!
+        </h1>
+        <p
+          class="bg-white px-5 pt-8 text-xl font-bold text-gray-400 lg:text-3xl"
+        >
+          Calling all
+          <span
+            id="job-title"
+            class="justGo-green slid-in-bottom text-2xl lg:text-4xl"
+            >Medical Experts</span
+          >
+        </p>
+        <p class="mx-auto px-5 py-8 text-2xl lg:w-1/2 lg:text-3xl lg:font-bold">
+          JustGo Health is designed with medical experts who are passionate
+          about helping you live healthier.
+        </p>
+        <div
+          class="flex items-center justify-center gap-5 overflow-x-clip md:overflow-visible"
+        >
+          <img
+            src="assets/images/Left.jpg"
+            alt="three young adults in pink, posing for the camera"
+            class="w-1/2 overflow-clip rounded-lg md:w-1/3 lg:w-72 lg:rounded-3xl"
+          />
+          <img
+            src="assets/images/Middle.jpg"
+            alt=""
+            class="w-1/2 translate-y-8 rounded-lg md:w-1/3 lg:w-72 lg:rounded-3xl"
+          />
+          <img
+            src="assets/images/Right.jpg"
+            alt=""
+            class="w-1/2 overflow-clip rounded-lg md:w-1/3 lg:w-72 lg:translate-y-16 lg:rounded-3xl"
+          />
+        </div>
+      </div>
+    </header>
 
+    <main>
+      <!-- CATERGORIES SECTION -->
 
-		<main>
-			<!-- CATERGORIES SECTION -->
+      <section class="-z-10 mx-auto max-w-[87.2vw] pt-20 lg:my-32">
+        <h2
+          class="mx-auto text-center text-2xl font-bold lg:w-[68vw] lg:text-4xl"
+        >
+          At <span class="text-[#339933]">JustGo Health</span>, we work closely
+          with healthcare experts to develop
+          <span class="text-[#993399]">smart software</span> that simplifies the
+          delivery of healthcare for everyone.
+        </h2>
 
+        <div
+          class="mx-auto my-10 grid max-w-[15rem] gap-6 md:max-w-xs lg:my-20 lg:max-w-5xl lg:grid-cols-3"
+        >
+          <div
+            class="rounded-xl border-4 border-[#92AEDB] px-2 py-10 text-center"
+          >
+            <h3 class="text-xl font-bold text-[#92AEDB] lg:text-3xl">
+              Human Curation
+            </h3>
+            <p class="py-5 lg:text-xl">
+              Experts plus our advanced technology handpicks all medical plans,
+              guides and personal recommendations
+            </p>
+            <button
+              onclick="location.href='register.html'"
+              class="rounded-sm bg-[#dae7f8] px-3 py-1 text-base font-bold text-[#92AEDB] outline outline-1 hover:bg-[#97b5e5] hover:text-[#dae7f8] lg:rounded-lg lg:py-2 lg:text-base lg:outline-[3px]"
+            >
+              Save Your Spot >
+            </button>
+          </div>
+          <div
+            class="rounded-xl border-4 border-[#92AEDB] px-2 py-10 text-center"
+          >
+            <h3 class="text-xl font-bold text-[#92AEDB] lg:text-3xl">
+              Everyday Health
+            </h3>
+            <p class="py-5 lg:text-xl">
+              We integrate the perfect health plan using your already existing
+              insurance, medical team and digital tools
+            </p>
+            <button
+              onclick="location.href='register.html'"
+              class="rounded-md bg-[#dae7f8] px-3 py-1 text-base font-bold text-[#92AEDB] outline outline-1 hover:bg-[#97b5e5] hover:text-[#dae7f8] lg:rounded-lg lg:py-2 lg:text-base lg:outline-[3px]"
+            >
+              Save Your Spot >
+            </button>
+          </div>
+          <div
+            class="rounded-xl border-4 border-[#92AEDB] px-2 py-10 text-center"
+          >
+            <h3 class="text-xl font-bold text-[#92AEDB] lg:text-3xl">
+              Perfect Health
+            </h3>
+            <p class="py-5 lg:text-xl">
+              Use the latest medical research into your health and control your
+              own body to get the perfect health
+            </p>
+            <button
+              onclick="location.href='register.html'"
+              class="rounded-md bg-[#dae7f8] px-3 py-1 text-base font-bold text-[#92AEDB] outline outline-1 hover:bg-[#97b5e5] hover:text-[#dae7f8] lg:rounded-lg lg:py-2 lg:text-base lg:outline-[3px]"
+            >
+              Save Your Spot >
+            </button>
+          </div>
+        </div>
+      </section>
 
-			<section class="max-w-[87.2vw] mx-auto lg:my-32 pt-20 -z-10">
-				<h2 class="text-2xl lg:text-4xl lg:w-[68vw] mx-auto font-bold text-center">
-					At <span class="text-[#339933]">JustGo Health</span>, we work closely
-					with healthcare experts to develop
-					<span class="text-[#993399]">smart software</span> that simplifies the
-					delivery of healthcare for everyone.
-				</h2>
+      <div class="breakIndicator"></div>
 
-				<div
-					class="grid lg:grid-cols-3 gap-6 max-w-[15rem] lg:max-w-5xl md:max-w-xs mx-auto my-10 lg:my-20"
-				>
-					<div
-						class="text-center border-4 border-[#92AEDB] px-2 py-10 rounded-xl"
-					>
-						<h3 class="text-xl lg:text-3xl text-[#92AEDB] font-bold">
-							Human Curation
-						</h3>
-						<p class="lg:text-xl py-5">
-							Experts plus our advanced technology handpicks all medical plans,
-							guides and personal recommendations
-						</p>
-						<button
-							onclick="location.href='register.html'"
-							class="bg-[#dae7f8] text-[#92AEDB] font-bold text-base py-1 rounded-sm lg:text-base px-3 lg:py-2 lg:rounded-lg outline-1 lg:outline-[3px] outline hover:bg-[#97b5e5] hover:text-[#dae7f8]"
-						>
-							Save Your Spot >
-						</button>
-					</div>
-					<div
-						class="text-center border-4 border-[#92AEDB] px-2 py-10 rounded-xl"
-					>
-						<h3 class="text-xl lg:text-3xl text-[#92AEDB] font-bold">
-							Everyday Health
-						</h3>
-						<p class="lg:text-xl py-5">
-							We integrate the perfect health plan using your already existing
-							insurance, medical team and digital tools
-						</p>
-						<button
-							onclick="location.href='register.html'"
-							class="bg-[#dae7f8] text-[#92AEDB] font-bold text-base py-1 rounded-md lg:text-base px-3 lg:py-2 lg:rounded-lg outline-1 lg:outline-[3px] outline hover:bg-[#97b5e5] hover:text-[#dae7f8]"
-						>
-							Save Your Spot >
-						</button>
-					</div>
-					<div
-						class="text-center border-4 border-[#92AEDB] px-2 py-10 rounded-xl"
-					>
-						<h3 class="text-xl lg:text-3xl text-[#92AEDB] font-bold">
-							Perfect Health
-						</h3>
-						<p class="lg:text-xl py-5">
-							Use the latest medical research into your health and control your
-							own body to get the perfect health
-						</p>
-						<button
-							onclick="location.href='register.html'"
-							class="bg-[#dae7f8] text-[#92AEDB] font-bold text-base py-1 rounded-md lg:text-base px-3 lg:py-2 lg:rounded-lg outline-1 lg:outline-[3px] outline hover:bg-[#97b5e5] hover:text-[#dae7f8]"
-						>
-							Save Your Spot >
-						</button>
-					</div>
-				</div>
-			</section>
+      <!-- JUSTGO RADIO -->
+      <section class="mx-auto mb-20 pt-20 lg:max-w-[76rem]">
+        <h2 class="text-center text-3xl font-bold lg:text-5xl">
+          JustGo Health Radio. #Health For All
+        </h2>
+        <div class="blueTag singleCardSize mx-auto my-3">
+          <p class="py-4 leading-7">
+            Starting in May, primary, high school and tertiary students across
+            Ghana can access our advanced healthcare offerings for Mental Health
+            and Reproductive Health.
+          </p>
+        </div>
+        <img
+          src="assets/images/JGo Health Poster.jpg"
+          alt=""
+          class="mx-auto w-[87.2vw] rounded-2xl lg:w-[56rem]"
+        />
+      </section>
 
-		<div class="breakIndicator"></div>
+      <!-- MENTAL HEALTH -->
+      <div id="mental_health"></div>
 
-			<!-- JUSTGO RADIO -->
-			<section class="lg:max-w-[76rem] mx-auto mb-20 pt-20">
-				<h2 class="text-center text-3xl lg:text-5xl font-bold">
-					JustGo Health Radio. #Health For All
-				</h2>
-				<div class="blueTag singleCardSize mx-auto my-3">
-					<p class="py-4 leading-7">
-						Starting in May, primary, high school and tertiary students across
-						Ghana can access our advanced healthcare offerings for Mental Health
-						and Reproductive Health.
-					</p>
-				</div>
-				<img
-					src="assets/images/JGo Health Poster.jpg"
-					alt=""
-					class="w-[87.2vw] lg:w-[56rem] mx-auto rounded-2xl"
-				/>
-			</section>
+      <div class="navContainer">
+        <div class="navBody">
+          <h4
+            class="rounded-lg bg-[#92AEDB] px-2 py-1 font-bold text-[#231F20] lg:text-2xl"
+          >
+            Meet JustGo Health
+          </h4>
 
-			<!-- MENTAL HEALTH -->
-			<div id="mental_health"></div>
+          <div class="flex sm:text-[1.2rem] lg:text-2xl">
+            <a
+              href="#mental_health"
+              class="border-b-8 border-[#92AEDB] pb-1 pl-2 pr-3 text-[#92AEDB] sm:pr-5"
+            >
+              Mental Health
+            </a>
+            <a
+              href="#repoduction_health"
+              class="border-b-4 pb-1 pl-3 pr-2 sm:pl-5"
+              >Reproductive Health</a
+            >
+          </div>
+        </div>
+      </div>
 
-			<div class="navContainer">
-				<div class="navBody">
-					<h4
-						class="rounded-lg bg-[#92AEDB] px-2 py-1 font-bold text-[#231F20] lg:text-2xl"
-					>
-						Meet JustGo Health
-					</h4>
+      <section class="flex flex-col items-center bg-[#F9F9F9]">
+        <p class="userIntro h-[10vh] sm:pb-7 md:pb-10">
+          Explore with Alex, a student athlete, as he uses JustGo Health to
+          access mental health @Oxford University.
+        </p>
 
-					<div class="flex sm:text-[1.2rem] lg:text-2xl">
-						<a
-							href="#mental_health"
-							class="border-b-8 border-[#92AEDB] pb-1 pl-2 pr-3 text-[#92AEDB] sm:pr-5"
-						>
-							Mental Health
-						</a>
-						<a
-							href="#repoduction_health"
-							class="border-b-4 pb-1 pl-3 pr-2 sm:pl-5"
-							>Reproductive Health</a
-						>
-					</div>
-				</div>
-			</div>
+        <img
+          src="assets/images/alex.jpg"
+          alt="alex"
+          class="h-[77vh] w-full object-cover sm:h-[80vh] lg:object-contain"
+        />
+      </section>
 
-			<section class="flex flex-col items-center bg-[#F9F9F9]">
-				<p class="userIntro h-[10vh] sm:pb-7 md:pb-10">
-					Explore with Alex, a student athlete, as he uses JustGo Health to
-					access mental health @Oxford University.
-				</p>
+      <section class="oneColumnSection">
+        <div class="blueTag singleCardSize">
+          <p>
+            <span class="blueTagHeading">#1 NEXT STEP:</span>
+            start with a symptom, test or routine and get your next step of
+            action.
+          </p>
+        </div>
 
-				<img
-					src="assets/images/alex.jpg"
-					alt="alex"
-					class="h-[77vh] w-full object-cover sm:h-[80vh] lg:object-contain"
-				/>
-			</section>
+        <img
+          src="assets/images/dashboard_alex.jpg"
+          alt="dashboard_alex"
+          class="singleCardSize"
+        />
+      </section>
 
-			<section class="oneColumnSection">
-				<div class="blueTag singleCardSize">
-					<p>
-						<span class="blueTagHeading">#1 NEXT STEP:</span>
-						start with a symptom, test or routine and get your next step of
-						action.
-					</p>
-				</div>
+      <section class="oneColumnSection breakIndicator">
+        <div class="blueTag singleCardSize">
+          <p>
+            <span class="blueTagHeading">#2 GUIDE:</span>
+            you can follow the healthcare process at home or at your doctor’s
+            office.
+          </p>
+        </div>
 
-				<img
-					src="assets/images/dashboard_alex.jpg"
-					alt="dashboard_alex"
-					class="singleCardSize"
-				/>
-			</section>
+        <img
+          src="assets/images/depresive_symptoms_alex.jpg"
+          alt="depresive_symptoms_alex"
+          class="singleCardSize"
+        />
+      </section>
 
-			<section class="oneColumnSection breakIndicator">
-				<div class="blueTag singleCardSize">
-					<p>
-						<span class="blueTagHeading">#2 GUIDE:</span>
-						you can follow the healthcare process at home or at your doctor’s
-						office.
-					</p>
-				</div>
+      <div class="breakIndicator"></div>
 
-				<img
-					src="assets/images/depresive_symptoms_alex.jpg"
-					alt="depresive_symptoms_alex"
-					class="singleCardSize"
-				/>
-			</section>
+      <div>
+        <section class="twoColumnSection">
+          <div class="alignVertical">
+            <div class="blueTagDoubleColumn">
+              <p>
+                <span class="blueTagHeading"
+                  >#3 HANDPICKED RECOMMENDATIONS:</span
+                >
+                medical experts create the most efficient treatment just for
+                you.
+              </p>
+            </div>
 
-			<div class="breakIndicator"></div>
+            <div>
+              <img
+                src="assets/images/recommendations_alex.jpg"
+                alt="recommendations_alex"
+                class="appImage"
+              />
+            </div>
+          </div>
 
-			<div>
-				<section class="twoColumnSection">
-					<div class="alignVertical">
-						<div class="blueTagDoubleColumn">
-							<p>
-								<span class="blueTagHeading"
-									>#3 HANDPICKED RECOMMENDATIONS:</span
-								>
-								medical experts create the most efficient treatment just for
-								you.
-							</p>
-						</div>
+          <div class="alignVertical">
+            <div class="blueTagDoubleColumn">
+              <p>
+                <span class="blueTagHeading">#4 PERSONALIZATION:</span>
+                you and your doctor will personalize the right treatments to
+                work with your schedule and insurance.
+              </p>
+            </div>
 
-						<div>
-							<img
-								src="assets/images/recommendations_alex.jpg"
-								alt="recommendations_alex"
-								class="appImage"
-							/>
-						</div>
-					</div>
+            <div>
+              <img
+                src="assets/images/personalization_alex.jpg"
+                alt="personalization_alex"
+                class="appImage"
+              />
+            </div>
+          </div>
+        </section>
 
-					<div class="alignVertical">
-						<div class="blueTagDoubleColumn">
-							<p>
-								<span class="blueTagHeading">#4 PERSONALIZATION:</span>
-								you and your doctor will personalize the right treatments to
-								work with your schedule and insurance.
-							</p>
-						</div>
+        <div class="breakIndicator"></div>
 
-						<div>
-							<img
-								src="assets/images/personalization_alex.jpg"
-								alt="personalization_alex"
-								class="appImage"
-							/>
-						</div>
-					</div>
-				</section>
+        <section class="twoColumnSection">
+          <div class="alignVertical">
+            <div class="blueTagDoubleColumn">
+              <p>
+                <span class="blueTagHeading">#5 WAITING ROOM:</span>
+                hear from others on the same journey or pioneers who have walked
+                your path too.
+              </p>
+            </div>
 
-				<div class="breakIndicator"></div>
+            <div>
+              <img
+                src="assets/images/waiting_room_alex.jpg"
+                alt="waiting_room_alex"
+                class="appImage"
+              />
+            </div>
+          </div>
 
-				<section class="twoColumnSection">
-					<div class="alignVertical">
-						<div class="blueTagDoubleColumn">
-							<p>
-								<span class="blueTagHeading">#5 WAITING ROOM:</span>
-								hear from others on the same journey or pioneers who have walked
-								your path too.
-							</p>
-						</div>
+          <div class="alignVertical">
+            <div class="blueTagDoubleColumn">
+              <p>
+                <span class="blueTagHeading">#6 COMMENTS:</span>
+                our experts categorize all statements based on Science into
+                Facts, Helpful and Myths
+              </p>
+            </div>
 
-						<div>
-							<img
-								src="assets/images/waiting_room_alex.jpg"
-								alt="waiting_room_alex"
-								class="appImage"
-							/>
-						</div>
-					</div>
+            <div>
+              <img
+                src="assets/images/comments_alex.jpg"
+                alt="comments_alex"
+                class="appImage"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
 
-					<div class="alignVertical">
-						<div class="blueTagDoubleColumn">
-							<p>
-								<span class="blueTagHeading">#6 COMMENTS:</span>
-								our experts categorize all statements based on Science into
-								Facts, Helpful and Myths
-							</p>
-						</div>
+      <!-- REPRODUCTIVE HEALTH -->
+      <nav class="navContainer" id="repoduction_health">
+        <div class="navBody">
+          <h4
+            class="rounded-lg bg-[#92AEDB] px-2 py-1 font-bold text-[#231F20] lg:text-2xl"
+          >
+            Meet JustGo Health
+          </h4>
 
-						<div>
-							<img
-								src="assets/images/comments_alex.jpg"
-								alt="comments_alex"
-								class="appImage"
-							/>
-						</div>
-					</div>
-				</section>
-			</div>
+          <div class="flex sm:text-[1.2rem] lg:text-2xl">
+            <a href="#mental_health" class="border-b-4 pb-1 pl-2 pr-3 sm:pr-5">
+              Mental Health
+            </a>
+            <a
+              href="#repoduction_health"
+              class="border-b-8 border-[#955AA4] pb-1 pl-3 pr-2 text-[#955AA4] sm:pl-5"
+              >Reproductive Health</a
+            >
+          </div>
+        </div>
+      </nav>
 
-			<!-- REPRODUCTIVE HEALTH -->
-			<nav class="navContainer" id="repoduction_health">
-				<div class="navBody">
-					<h4
-						class="rounded-lg bg-[#92AEDB] px-2 py-1 font-bold text-[#231F20] lg:text-2xl"
-					>
-						Meet JustGo Health
-					</h4>
+      <section class="flex flex-col items-center">
+        <p class="userIntro h-[13vh] sm:h-[10vh] sm:pb-4">
+          Explore with Joana, a fashion model, as she uses JustGo Health to
+          access reproductive health @John Hopkins University.
+        </p>
 
-					<div class="flex sm:text-[1.2rem] lg:text-2xl">
-						<a href="#mental_health" class="border-b-4 pb-1 pl-2 pr-3 sm:pr-5">
-							Mental Health
-						</a>
-						<a
-							href="#repoduction_health"
-							class="border-b-8 border-[#955AA4] pb-1 pl-3 pr-2 text-[#955AA4] sm:pl-5"
-							>Reproductive Health</a
-						>
-					</div>
-				</div>
-			</nav>
+        <img
+          src="assets/images/joana_header.jpg"
+          alt="alex"
+          class="h-[80vh] w-full object-cover"
+        />
+      </section>
 
-			<section class="flex flex-col items-center">
-				<p class="userIntro h-[13vh] sm:h-[10vh] sm:pb-4">
-					Explore with Joana, a fashion model, as she uses JustGo Health to
-					access reproductive health @John Hopkins University.
-				</p>
+      <section class="oneColumnSection">
+        <div class="purpleTag singleCardSize">
+          <p>
+            <span class="purpleTagHeading">#1 NEXT STEP:</span>
+            start with a symptom, test or routine and get your next step of
+            action.
+          </p>
+        </div>
 
-				<img
-					src="assets/images/joana_header.jpg"
-					alt="alex"
-					class="h-[80vh] w-full object-cover"
-				/>
-			</section>
+        <img
+          src="assets/images/dashboard_joana.jpg"
+          alt="dashboard_joana"
+          class="singleCardSize"
+        />
+      </section>
 
-			<section class="oneColumnSection">
-				<div class="purpleTag singleCardSize">
-					<p>
-						<span class="purpleTagHeading">#1 NEXT STEP:</span>
-						start with a symptom, test or routine and get your next step of
-						action.
-					</p>
-				</div>
+      <section class="oneColumnSection breakIndicator">
+        <div class="purpleTag singleCardSize">
+          <p>
+            <span class="purpleTagHeading">#2 GUIDE:</span>
+            you can follow the healthcare process at home or at your doctor’s
+            office.
+          </p>
+        </div>
 
-				<img
-					src="assets/images/dashboard_joana.jpg"
-					alt="dashboard_joana"
-					class="singleCardSize"
-				/>
-			</section>
+        <img
+          src="assets/images/medical_history_dashboard_joana.jpg"
+          alt="medical_history_dashboard_joana"
+          class="singleCardSize"
+        />
+      </section>
 
-			<section class="oneColumnSection breakIndicator">
-				<div class="purpleTag singleCardSize">
-					<p>
-						<span class="purpleTagHeading">#2 GUIDE:</span>
-						you can follow the healthcare process at home or at your doctor’s
-						office.
-					</p>
-				</div>
+      <div class="breakIndicator"></div>
 
-				<img
-					src="assets/images/medical_history_dashboard_joana.jpg"
-					alt="medical_history_dashboard_joana"
-					class="singleCardSize"
-				/>
-			</section>
+      <div>
+        <section class="twoColumnSection">
+          <div class="alignVertical">
+            <div class="purpleTagDoubleColumn">
+              <p>
+                <span class="purpleTagHeading"
+                  >#3 HANDPICKED RECOMMENDATIONS:</span
+                >
+                medical experts create the most efficient treatment just for
+                you.
+              </p>
+            </div>
 
-			<div class="breakIndicator"></div>
+            <div>
+              <img
+                src="assets/images/recommendations_joana.jpg"
+                alt="recommendations_joana"
+                class="appImage"
+              />
+            </div>
+          </div>
 
-			<div>
-				<section class="twoColumnSection">
-					<div class="alignVertical">
-						<div class="purpleTagDoubleColumn">
-							<p>
-								<span class="purpleTagHeading"
-									>#3 HANDPICKED RECOMMENDATIONS:</span
-								>
-								medical experts create the most efficient treatment just for
-								you.
-							</p>
-						</div>
+          <div class="alignVertical">
+            <div class="purpleTagDoubleColumn">
+              <p>
+                <span class="purpleTagHeading">#4 PERSONALIZATION:</span>
+                you and your doctor will personalize the right treatments to
+                work with your schedule and insurance.
+              </p>
+            </div>
 
-						<div>
-							<img
-								src="assets/images/recommendations_joana.jpg"
-								alt="recommendations_joana"
-								class="appImage"
-							/>
-						</div>
-					</div>
+            <div>
+              <img
+                src="assets/images/treatment_joana.jpg"
+                alt="treatment_joana"
+                class="appImage"
+              />
+            </div>
+          </div>
+        </section>
 
-					<div class="alignVertical">
-						<div class="purpleTagDoubleColumn">
-							<p>
-								<span class="purpleTagHeading">#4 PERSONALIZATION:</span>
-								you and your doctor will personalize the right treatments to
-								work with your schedule and insurance.
-							</p>
-						</div>
+        <div class="breakIndicator"></div>
 
-						<div>
-							<img
-								src="assets/images/treatment_joana.jpg"
-								alt="treatment_joana"
-								class="appImage"
-							/>
-						</div>
-					</div>
-				</section>
+        <section class="twoColumnSection">
+          <div class="alignVertical">
+            <div class="purpleTagDoubleColumn">
+              <p>
+                <span class="purpleTagHeading">#5 WAITING ROOM:</span>
+                hear from others on the same journey or pioneers who have walked
+                your path too.
+              </p>
+            </div>
 
-				<div class="breakIndicator"></div>
+            <div>
+              <img
+                src="assets/images/waiting_room_joana.jpg"
+                alt="waiting_room_joana"
+                class="appImage"
+              />
+            </div>
+          </div>
 
-				<section class="twoColumnSection">
-					<div class="alignVertical">
-						<div class="purpleTagDoubleColumn">
-							<p>
-								<span class="purpleTagHeading">#5 WAITING ROOM:</span>
-								hear from others on the same journey or pioneers who have walked
-								your path too.
-							</p>
-						</div>
-
-						<div>
-							<img
-								src="assets/images/waiting_room_joana.jpg"
-								alt="waiting_room_joana"
-								class="appImage"
-							/>
-						</div>
-					</div>
-
-					<div class="alignVertical">
-						<div class="purpleTagDoubleColumn">
-							<p>
-								<span class="purpleTagHeading">#6 COMMENTS:</span>
-								our experts categorize all statements based on Science into
-								Facts, Helpful and Myths
-							</p>
-						</div>
+          <div class="alignVertical">
+            <div class="purpleTagDoubleColumn">
+              <p>
+                <span class="purpleTagHeading">#6 COMMENTS:</span>
+                our experts categorize all statements based on Science into
+                Facts, Helpful and Myths
+              </p>
+            </div>
 
 						<div>
 							<img
@@ -461,42 +476,32 @@
 			<div class="max-w-[80%]">
 				<ol class="list-decimal">
 					<li>
-						Images are shared from
-						<a class="underline" href="https://www.freepik.com/">Freepik.com</a
-						>,
-						<a class="underline" href="https://unsplash.com/">Unspalsh.com</a>
-						and
-						<a class="underline" href="https://www.pexels.com/">Pexels.com</a>.
+						Images are shared from Freepik.com, Unspalsh.com and Pexels.com.
 					</li>
 					<li>
 						Medical information on Mental Health demo are from
-						<a class="underline" href="https://www.hopkinsmedicine.org/"
-							>Hopkinsmedicine.org</a
-						>
+						Hopkinsmedicine.org
 					</li>
 					<li>
-						Reproductive Health information for the demo are from
-						<a class="underline" href="https://www.mayoclinic.org/"
-							>Mayoclinic.org</a
-						>
+						Reproductive Health information for the demo are from Mayoclinic.org
 					</li>
 				</ol>
 			</div>
 
-			<div
-				class="flex max-w-[80%] flex-col items-center space-y-2 text-center text-sm"
-			>
-				<h4 class="text-center font-bold">
-					* Please note that while the demo is limited to Mental & Reproductive
-					Health, JustGo Health provides a full range of healthcare services.
-				</h4>
+      <div
+        class="flex max-w-[80%] flex-col items-center space-y-2 text-center text-sm"
+      >
+        <h4 class="text-center font-bold">
+          * Please note that while the demo is limited to Mental & Reproductive
+          Health, JustGo Health provides a full range of healthcare services.
+        </h4>
 
-				<h4 class="font-bold text-[#59595B]">
-					Copyright © 2023 JustGo Health. All rights reserved
-				</h4>
-			</div>
-		</footer>
+        <h4 class="font-bold text-[#59595B]">
+          Copyright © 2023 JustGo Health. All rights reserved
+        </h4>
+      </div>
+    </footer>
 
-	<script src="index.js"></script>
-	</body>
+    <script src="index.js"></script>
+  </body>
 </html>
