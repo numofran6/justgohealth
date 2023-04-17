@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+#job-title {
+    transition: all 500ms ease-in-out;
+}
+
+.justGo-blue {
+    color: #003399;
+}
+
+.justGo-purple {
+    color: #993399;
+}
+
+.justGo-green {
+    color: #339933;
+}
+
+
 .oneColumnSection {
 	@apply flex min-h-screen flex-col
     items-center justify-center py-10
