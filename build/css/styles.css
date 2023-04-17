@@ -949,7 +949,7 @@ video {
 
 .oneColumnSection {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -961,18 +961,25 @@ video {
   margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
+.oneColumnSection {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .twoColumnSection {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
   align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 @media (min-width: 1024px) {
   .twoColumnSection {
-    height: 100vh;
-    max-width: 65%;
+    max-width: 90%;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -1005,7 +1012,7 @@ video {
 }
 
 .blueTagDoubleColumn {
-  width: 80vw;
+  width: 90vw;
   border-radius: 1rem;
   border-width: 8px;
   --tw-border-opacity: 1;
@@ -1026,13 +1033,13 @@ video {
 
 @media (min-width: 640px) {
   .blueTagDoubleColumn {
-    width: 50vw;
+    width: 60vw;
   }
 }
 
 @media (min-width: 1024px) {
   .blueTagDoubleColumn {
-    width: 30vw;
+    width: 40vw;
     font-size: 1.2rem;
     line-height: 1.25rem;
   }
@@ -1071,7 +1078,7 @@ video {
 }
 
 .purpleTagDoubleColumn {
-  width: 80vw;
+  width: 90vw;
   border-radius: 1rem;
   border-width: 8px;
   --tw-border-opacity: 1;
@@ -1091,13 +1098,13 @@ video {
 
 @media (min-width: 640px) {
   .purpleTagDoubleColumn {
-    width: 50vw;
+    width: 60vw;
   }
 }
 
 @media (min-width: 1024px) {
   .purpleTagDoubleColumn {
-    width: 30vw;
+    width: 40vw;
     font-size: 1.2rem;
     line-height: 1.25rem;
   }
@@ -1111,31 +1118,35 @@ video {
 
 .alignVertical {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 @media (min-width: 1024px) {
   .alignVertical {
     height: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
 .appImage {
-  width: 80vw;
+  width: 90vw;
 }
 
 @media (min-width: 640px) {
   .appImage {
-    width: 50vw;
+    width: 60vw;
   }
 }
 
 @media (min-width: 1024px) {
   .appImage {
-    width: 30vw;
+    width: 40vw;
   }
 }
 
@@ -1145,13 +1156,13 @@ video {
 
 @media (min-width: 1024px) {
   .singleCardSize {
-    width: 60vw;
+    width: 70vw;
   }
 }
 
 @media (min-width: 1280px) {
   .singleCardSize {
-    width: 50vw;
+    width: 70vw;
   }
 }
 
@@ -1159,7 +1170,7 @@ video {
   position: sticky;
   top: 0px;
   display: flex;
-  height: 14vh;
+  min-height: 13vh;
   width: 100%;
   flex-direction: column;
   align-items: center;
@@ -1168,18 +1179,19 @@ video {
   background-color: rgb(249 249 249 / var(--tw-bg-opacity));
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
 @media (min-width: 640px) {
   .navContainer {
-    height: 12vh;
+    min-height: 11vh;
   }
 }
 
 @media (min-width: 1024px) {
   .navContainer {
-    height: 14vh;
+    min-height: 13vh;
   }
 }
 
