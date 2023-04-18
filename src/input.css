@@ -3,24 +3,24 @@
 @tailwind utilities;
 
 #job-title {
-    transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
 }
 
 .justGo-blue {
-    color: #003399;
+	color: #003399;
 }
 
 .justGo-purple {
-    color: #993399;
+	color: #993399;
 }
 
 .justGo-green {
-    color: #339933;
+	color: #339933;
 }
 
 .navbar-scrolled {
-    opacity: 0;
-    transition: all 300ms ease;
+	opacity: 0;
+	transition: all 300ms ease;
 }
 
 .oneColumnSection {
@@ -31,9 +31,9 @@
 
 .twoColumnSection {
 	@apply mx-auto flex flex-col
-  items-center min-h-screen py-10
-   lg:max-w-[90%]
-  lg:flex-row lg:justify-between;
+    items-center min-h-screen py-10
+    lg:max-w-[90%]
+    lg:flex-row lg:justify-between;
 }
 
 .blueTag {
@@ -101,12 +101,16 @@
 	@apply w-[90%] lg:w-[70vw] xl:w-[70vw];
 }
 
+.singleCardTagSize {
+	@apply w-[90%] md:w-[60vw] xl:w-[50vw];
+}
+
 .navContainer {
 	@apply sticky top-0 
     flex min-h-[13vh] w-full flex-col 
     items-center justify-end 
-    bg-[#F9F9F9] px-5 py-4 
-    sm:min-h-[11vh] lg:min-h-[13vh];
+    bg-[#ffffffa8] backdrop-blur-[1rem] px-5 py-4
+    sm:min-h-[11vh] lg:min-h-[13vh] z-[9999];
 }
 
 .navBody {
