@@ -833,6 +833,16 @@ video {
   line-height: 1.25rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -883,6 +893,26 @@ video {
 .text-\[\#59595B\] {
   --tw-text-opacity: 1;
   color: rgb(89 89 91 / var(--tw-text-opacity));
+}
+
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#99\] {
+  color: #99;
+}
+
+.text-\[\#3399\] {
+  color: #3399;
+}
+
+.text-\[\#9933\] {
+  color: #9933;
+}
+
+.text-\[9933\] {
+  color: 9933;
 }
 
 .outline {
@@ -1453,6 +1483,16 @@ footer {
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .lg\:font-bold {
