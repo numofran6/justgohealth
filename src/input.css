@@ -18,6 +18,10 @@
     color: #339933;
 }
 
+.navbar-scrolled {
+    opacity: 0;
+    transition: all 300ms ease;
+}
 
 .oneColumnSection {
 	@apply flex min-h-screen flex-col

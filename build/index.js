@@ -30,3 +30,13 @@ const jobTitles = [
     }, 500);
   }, 1500);
   
+
+  const navEl = document.querySelector('.navbar');
+    console.log(scrollY);
+    window.addEventListener('scroll', () =>  {
+      if (window.scrollY >= 3100) {
+        navEl.classList.add('navbar-scrolled');
+      } else if (window.screenY < 3100) {
+        navEl.classList.remove('navbar-scrolled');
+      }
+    });
