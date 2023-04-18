@@ -34,9 +34,9 @@ const jobTitles = [
   const navEl = document.querySelector('.navbar');
     console.log(scrollY);
     window.addEventListener('scroll', () =>  {
-      if (window.scrollY >= 3100) {
+      if (window.scrollY >= 2500) {
         navEl.classList.add('navbar-scrolled');
-      } else if (window.screenY < 3100) {
+      } else if (window.screenY < 2500) {
         navEl.classList.remove('navbar-scrolled');
       }
     });
